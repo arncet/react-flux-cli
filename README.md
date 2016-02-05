@@ -3,6 +3,7 @@
 A simple CLI to generate the basic structure of React and Flux files.
 
 React-flux-cli help you to generate some React/Flux files.
+
 A configuration file is generated at ~/.rfcli.json
 
 ## Installation
@@ -47,8 +48,11 @@ rfcli -A Home
 ## Configuration
 
 The default component structure based on [sublime-react](https://github.com/reactjs/sublime-react).
+
 Defaults flux files structure based on [Flux Todo list](http://facebook.github.io/flux/docs/todo-list.html#content).
+
 To use your own file structure, you can edit ~/.rfcli.json.
+
 To transform your code into one line, you can use : [FreeFormatter](http://www.freeformatter.com/javascript-escape.html).
 
 
