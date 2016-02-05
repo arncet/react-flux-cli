@@ -80,4 +80,4 @@ To transform your code into one line, you can use : [FreeFormatter](http://www.f
 
 ## License
 
-ISC
+MIT
