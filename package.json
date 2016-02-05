@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arncet/react-flux-cli"
+  },
   "keywords": [
     "react",
     "flux",
@@ -13,6 +17,10 @@
   ],
   "author": "Arnaud Cetoute <arnaud.cetoute@hotmail.fr>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arncet/react-flux-cli/issues"
+  },
+  "homepage": "https://github.com/arncet/react-flux-cli",
   "bin": {
     "rfcli": "./index.js"
   },
