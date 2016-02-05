@@ -171,7 +171,7 @@ function allFilesOption(){
 }
 
 program
-    .version('1.0.3')
+    .version('1.0.4')
     .arguments('<fileName>')
     .option('-j, --jsx', 'Create component file (.jsx)')
     .option('-a, --actions', 'Create an actions file')

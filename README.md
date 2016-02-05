@@ -1,6 +1,6 @@
 # react-flux-cli
 
-A simple CLI to generate the basic structure of React and Flux files
+A simple CLI to generate the basic structure of React and Flux files.
 
 React-flux-cli help you to generate some React/Flux files.
 A configuration file is generated at ~/.rfcli.json
@@ -20,7 +20,7 @@ All directory can be modified in the config file.
 
 ```
 rfcli -j Home
-// => Create HomeComponent file in ./component 
+// => Create HomeComponent file in ./components 
 
 rfcli -a Home
 // => Create HomeActions file in ./actions 
@@ -38,7 +38,7 @@ Execute rfcli without option will generate all files.
 
 ```
 rfcli -A Home
-// => Create HomeComponent file in ./component 
+// => Create HomeComponent file in ./components
 // => Create HomeActions file in ./actions 
 // => Create HomeStore file in ./stores 
 // => Create HomeConstants file in ./constants 

@@ -1,6 +1,6 @@
 {
   "name": "react-flux-cli",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple CLI to generate the basic structure of React and Flux files",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,7 @@
     "cli"
   ],
   "author": "Arnaud Cetoute <arnaud.cetoute@hotmail.fr>",
-  "license": "ISC",
+  "license": "MIT",
   "bin": {
     "rfcli": "./index.js"
   },
