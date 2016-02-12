@@ -4,9 +4,11 @@ A simple CLI to generate the basic structure of React and Flux files.
 
 React-flux-cli help you to generate some React/Flux files.
 
+Based on the configuration file, react-flux-cli automatically resolves all relative paths to the dependences of the generated files.
+
 A configuration file is generated at ~/.rfcli.json
 
-## Installation
+## Installation :
 
 ```
 npm install -g react-flux-cli
@@ -14,9 +16,11 @@ npm install -g react-flux-cli
 
 ## Example :
 
-### Create a single file 
+### Create a single file :
 
 All directory can be modified in the config file.
+
+React-flux-cli does not modify existing files and does not create non-existent folder. To force the writing or editing you can use the -f option ( --force )
 
 
 ```
@@ -33,7 +37,7 @@ rfcli -c Home
 // => Create HomeConstants file in ./constants 
 ```
 
-### Create all files
+### Create all files :
 
 Execute rfcli without option will generate all files.
 
@@ -45,7 +49,7 @@ rfcli -A Home
 // => Create HomeConstants file in ./constants 
 ```
 
-## Configuration
+## Configuration :
 
 The default component structure based on [sublime-react](https://github.com/reactjs/sublime-react).
 

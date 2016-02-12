@@ -53,7 +53,7 @@ function getConfigFilePath(){
  **/
 function createConfigFile(){
     fs.outputJson(getConfigFilePath(), config, function (err) {
-        if(err) return console.log(chalk.bold.red(`${err}`));
+        if(err) return console.log(chalk.bold.red(err));
         console.log(chalk.green('Config file created at'), chalk.blue(getConfigFilePath()));
     });
 }
@@ -140,7 +140,7 @@ function createFile(fileName, type, ext, success){
             checkIfExist(filePath, function(err){
                 if(err || (!err && program.force)){
                     fs.outputFile(filePath, content, function (err) {
-                        if(err) return console.log(chalk.bold.red(`${err}`));
+                        if(err) return console.log(chalk.bold.red(err));
                         success();
                     });
                 }else{
@@ -149,7 +149,7 @@ function createFile(fileName, type, ext, success){
                 }
             });
         }else{
-            console.log(chalk.bold.red(`${err}`));
+            console.log(chalk.bold.red(err));
             console.log(chalk.red("To force the folder creation use -f  (--force) option"));
         }
     });
@@ -171,7 +171,7 @@ function allFilesOption(){
 }
 
 program
-    .version('1.0.4')
+    .version('1.0.5')
     .arguments('<fileName>')
     .option('-j, --jsx', 'Create component file (.jsx)')
     .option('-a, --actions', 'Create an actions file')
